@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninjamail</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f9c9f5cd0c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <ul>
+                <li><img src="images/logo.jpg" alt=""></li>
+            </ul>
+            <ul class="menu-items" id="sidebar">
+                <li onclick="closeNav()" id="close"><i class="fas fa-times"></i></li>
+                <a href="#">
+                    <li>Features</li>
+                </a>
+                <a href="#">
+                    <li>Pricing</li>
+                </a>
+                <a href="#service">
+                    <li>Services</li>
+                </a>
+                <a href="#customer">
+                    <li id="last-item">Partners</li>
+                </a>
+                <a href="https://tirthadas9775.github.io/others/create%20account.html"><button class="common-btn">SIGN
+                        UP FREE</button></a>
+            </ul>
+            <li id="main" onclick="openNav()" class="menu-bar"><i class="fas fa-bars"></i></li>
+        </ul>
+    </nav>
+
+    <section class="banner-section">
+        <div class="banner-text">
+            <div>
+                <h1>Create Stunning <br> Email Campaigns</h1>
+                <p>Create and launch email campaigns that captivate <br> your customers in just a few clicks.</p>
+                <button class="common-btn">TRY NOW</button>
+                <button class="blank-btn">GET A DEMO</button>
+            </div>
+        </div>
+        <div class="banner-image" data-aos="fade-right">
+            <img src="images/banner-photo.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="advertising-section">
+        <div class="advertisement">
+            <div>
+                <h1 data-aos="fade-right">Reach More Customers</h1>
+                <button class="custom-btn" data-aos="fade-left">LEARN HOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="service">
+        <h1>Our Services</h1>
+        <div class="services">
+            <div class="service" data-aos="fade-up" data-aos-duration="3000">
+                <img src="images/services/services1.jpg" alt="">
+                <div class="service-text">
+                    <p>Launch campaigns but also find new customers. Our unique platform handles campaigns from start to
+                        end.</p>
+                    <a href="#">
+                        <h4>Learn More ></h4>
+                    </a>
+                </div>
+            </div>
+            <div class="service" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="images/services/services2.jpg" alt="">
+                <div class="service-text">
+                    <p>Start building and sharing with your team today. NinjaMail is renowned for its industry leading
+                        team
+                        collaboration tools.</p>
+                    <a href="#">
+                        <h4>Learn More ></h4>
+                    </a>
+                </div>
+            </div>
+            <div class="service" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="images/services/services2.jpg" alt="">
+                <div class="service-text">
+                    <p>Start building and sharing with your team today. NinjaMail is renowned for its industry leading
+                        team
+                        collaboration tools.</p>
+                    <a href="#">
+                        <h4>Learn More ></h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer-section" id="customer">
+        <h1 class="heading">Our Customers</h1>
+        <div class="customers">
+            <div class="customer frankie" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <div>
+                    <h1>Frankie</h1>
+                    <h3>Member since 2016</h3>
+                </div>
+            </div>
+            <div class="customer camile" data-aos="fade-up" data-aos-anchor-placement="center-center">
+                <div>
+                    <h1>Camile</h1>
+                    <h3>Member since 2016</h3>
+                </div>
+            </div>
+            <div class="customer elayne" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <div>
+                    <h1>Elayne</h1>
+                    <h3>Member since 2016</h3>
+                </div>
+            </div>
+        </div>
+        <h2>Learn how others are reaching their <br> audience easier than ever before.</h2>
+        <div class="mail-part">
+            <input type="email" placeholder="Enter your mail here">
+            <button class="common-btn">Join Our List</button>
+            <h5>Thanks! Your mail received</h5>
+        </div>
+        <h2>All the best brands <br> already use us.</h2>
+        <div class="brand-logos">
+            <ul data-aos="fade-up-right">
+                <li><img src="images/brand-logo/Logo1.jpg" alt=""></li>
+                <li><img src="images/brand-logo/Image 1 (image).jpg" alt=""></li>
+                <li><img src="images/brand-logo/Quest logo Sept 2019 (image).jpg" alt=""></li>
+                <li><img src="images/brand-logo/Image 3 (image).jpg" alt=""></li>
+                <li><img src="images/brand-logo/Logo5.jpg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="get-started-section">
+        <h1 data-aos="fade-up-left">Get Started today!</h1>
+        <button class="blank-btn" data-aos="fade-up-right">Pick A Plan</button>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <img src="images/logo.jpg" alt="">
+            <ul>
+                <a href="#">
+                    <li>Features</li>
+                </a>
+                <a href="#">
+                    <li>Pricing</li>
+                </a>
+                <a href="#">
+                    <li>Services</li>
+                </a>
+                <a href="#">
+                    <li>Partners</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="#">
+                    <li>About Us</li>
+                </a>
+                <a href="#">
+                    <li>Tutorials</li>
+                </a>
+                <a href="#">
+                    <li>Resources</li>
+                </a>
+                <a href="#">
+                    <li>Help Center</li>
+                </a>
+                <a href="#">
+                    <li>Templates</li>
+                </a>
+                <a href="#">
+                    <li>Case Studies</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="#">
+                    <li>Medium</li>
+                </a>
+                <a href="#">
+                    <li>Twitter</li>
+                </a>
+                <a href="#">
+                    <li>Facebook</li>
+                </a>
+                <a href="#">
+                    <li>Instagram</li>
+                </a>
+                <a href="#">
+                    <li>Linkedin</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="#">
+                    <li>Contact Us</li>
+                </a>
+                <a href="#">
+                    <li>Slack</li>
+                </a>
+                <a href="#">
+                    <li>Jobs</li>
+                </a>
+            </ul>
+        </div>
+        <hr>
+        <div class="copyright-section">
+            <div>
+                <h6>NinjaMail is a sample project for Quest AI. © 2019 Quest AI, All rights reserved.</h6>
+            </div>
+            <a href="#">
+                <h6>Terms & Conditions</h6>
+            </a>
+            <a href="#">
+                <h6>Privacy Policy</h6>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
